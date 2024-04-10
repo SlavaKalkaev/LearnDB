@@ -1,0 +1,12 @@
+CREATE TABLE Table1 (
+    PartID INT AUTO_INCREMENT PRIMARY KEY,
+    PartName TEXT NOT NULL,
+    PartBrand TEXT NOT NULL
+);
+
+
+CREATE TABLE Table2 (
+    PartID INT AUTO_INCREMENT PRIMARY KEY,
+    PartCost INT NOT NULL,
+    PartCountry INT NOT NULL
+);
